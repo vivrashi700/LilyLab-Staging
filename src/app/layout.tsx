@@ -19,6 +19,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: 'Lilylab | Research-based Beauty & Personal Care',
   description: 'The Laboratory Meets Nature. Pure, clinically-profiled botanical oils from Nova Scotia.',
+  verification: {
+    google: 'R-rWpqvH0Qe3kCHepkRAscPpZzwAo3m5jOUtJ29p_Yo',
+  },
 }
 
 import WhatsAppFloat from '@/components/WhatsAppFloat'
