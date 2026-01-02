@@ -7,8 +7,11 @@ export default function Home() {
         <h1 className="text-5xl md:text-7xl font-serif text-slate-900 mb-6 tracking-tight">
           The Laboratory Meets Nature.
         </h1>
-        <p className="text-xl text-slate-500 font-light mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-slate-500 font-light mb-6 max-w-2xl mx-auto">
           Research-based beauty from Nova Scotia. We bridge the gap between clinical science and pure botanical extracts.
+        </p>
+        <p className="text-sm font-medium text-emerald-800 mb-10 tracking-wider">
+          📍 NOW OFFERING LOCAL DELIVERY IN HALIFAX, NS
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

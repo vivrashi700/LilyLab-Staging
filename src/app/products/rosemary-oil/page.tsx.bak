@@ -44,15 +44,12 @@ export default function RosemaryOilPage() {
             <div className="max-w-4xl mx-auto px-4 py-16">
 
                 {/* Purchasing Options */}
-                <div className="flex flex-col md:flex-row gap-4 justify-center mb-16 flex-wrap">
-                    <a href="#" className="flex-1 min-w-[200px] max-w-xs bg-slate-900 text-white text-center py-4 px-6 hover:bg-slate-800 transition-colors duration-300 uppercase tracking-wider text-sm font-medium rounded-sm">
+                <div className="flex flex-col md:flex-row gap-4 justify-center mb-16">
+                    <a href="#" className="flex-1 max-w-md bg-slate-900 text-white text-center py-4 px-8 hover:bg-slate-800 transition-colors duration-300 uppercase tracking-wider text-sm font-medium rounded-sm">
                         Check Price on Amazon
                     </a>
-                    <a href="#" className="flex-1 min-w-[200px] max-w-xs border border-slate-900 text-slate-900 text-center py-4 px-6 hover:bg-slate-50 transition-colors duration-300 uppercase tracking-wider text-sm font-medium rounded-sm">
+                    <a href="#" className="flex-1 max-w-md border border-slate-900 text-slate-900 text-center py-4 px-8 hover:bg-slate-50 transition-colors duration-300 uppercase tracking-wider text-sm font-medium rounded-sm">
                         Buy on Etsy
-                    </a>
-                    <a href="https://wa.me/9059622919?text=Hi%20Lilylab%2C%20I%20would%20like%20to%20order%20Rosemary%20Oil%20for%20local%20delivery%20in%20Halifax" target="_blank" rel="noopener noreferrer" className="flex-1 min-w-[200px] max-w-xs border border-emerald-800 bg-emerald-50 text-emerald-900 text-center py-4 px-6 hover:bg-emerald-100 transition-colors duration-300 uppercase tracking-wider text-sm font-medium rounded-sm">
-                        Local Delivery (Halifax)
                     </a>
                 </div>
 

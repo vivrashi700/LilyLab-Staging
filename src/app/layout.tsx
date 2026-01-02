@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   description: 'The Laboratory Meets Nature. Pure, clinically-profiled botanical oils from Nova Scotia.',
 }
 
+import WhatsAppFloat from '@/components/WhatsAppFloat'
+
 export default function RootLayout({
   children,
 }: {
@@ -33,6 +35,7 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
+        <WhatsAppFloat />
         <footer className="bg-slate-50 border-t border-slate-100 py-12 mt-auto">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-sm font-light">
