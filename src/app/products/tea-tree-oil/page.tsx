@@ -4,8 +4,20 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
     title: 'Therapeutic Tea Tree Oil - Scalp Detox & Dandruff Control | Lilylab',
-    description: 'Pure Melaleuca Alternifolia oil. High Terpinen-4-ol content for antimicrobial scalability detox and dandruff control. The ultimate clarifying treatment.',
-    keywords: ['Tea tree oil for dandruff', 'pure essential oils Canada', 'Lilylab tea tree', 'scalp detox', 'antimicrobial oil'],
+    description: 'Purify and balance your scalp with high-terpinen Tea Tree Oil. The ultimate detox for healthy hair roots and dandruff control.',
+    keywords: ['Tea Tree Oil for dandruff', 'Scalp detox oil', 'Anti-fungal hair oil', 'Lilylab tea tree'],
+    openGraph: {
+        title: 'Therapeutic Tea Tree Oil - Scalp Detox | Lilylab',
+        description: 'Purify and balance your scalp with high-terpinen Tea Tree Oil. The ultimate detox for healthy hair roots.',
+        images: [
+            {
+                url: '/images/tea-tree-research.jpg',
+                width: 800,
+                height: 800,
+                alt: 'Lilylab Tea Tree Oil Research',
+            },
+        ],
+    },
 }
 
 export default function TeaTreeOilPage() {

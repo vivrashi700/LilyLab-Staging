@@ -6,6 +6,18 @@ export const metadata: Metadata = {
     title: 'Pure Batana Oil - Honduran Secret for Hair Growth Canada | Lilylab',
     description: 'Experience deep follicle repair with Lilylab\'s Pure Batana Oil. Rich in fatty acids from the Elaeis oleifera nut. A perfect pre-wash mask or overnight scalp treatment.',
     keywords: ['Batana oil for hair growth Canada', 'pure Honduran batana oil', 'Lilylab hair repair', 'hair growth oil', 'natural hair treatment'],
+    openGraph: {
+        title: 'Pure Batana Oil - Honduran Secret for Hair Growth | Lilylab',
+        description: 'Deep follicle repair with 100% Pure Batana Oil from Honduras. The miracle from the Miskito Coast.',
+        images: [
+            {
+                url: '/images/batana-bottle.png',
+                width: 800,
+                height: 800,
+                alt: 'Lilylab Pure Batana Oil Bottle',
+            },
+        ],
+    },
 }
 
 export default function BatanaOilPage() {
@@ -24,9 +36,9 @@ export default function BatanaOilPage() {
                 </div>
 
                 <div className="relative z-20 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
-                    <div className="w-64 h-40 relative mb-8 shadow-2xl rounded-lg overflow-hidden border border-white/20">
+                    <div className="w-64 h-80 relative mb-8 shadow-2xl rounded-lg overflow-hidden border border-white/20">
                         <Image
-                            src="/images/batana-research.jpg"
+                            src="/images/batana-bottle.png"
                             alt="Batana Oil Research"
                             fill
                             className="object-cover"

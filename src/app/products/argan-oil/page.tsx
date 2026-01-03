@@ -6,6 +6,18 @@ export const metadata: Metadata = {
     title: 'Moroccan Argan Oil - Liquid Gold for Hair & Skin | Lilylab',
     description: 'Pure cold-pressed Argan Oil from Nova Scotia. Enriched with Vitamin E and Squalene for frizz control, cuticle repair, and skin moisturizing.',
     keywords: ['Organic Argan Oil Nova Scotia', 'Cold-pressed Argan Oil for hair', 'Liquid Gold oil', 'Lilylab argan oil'],
+    openGraph: {
+        title: 'Moroccan Argan Oil - Liquid Gold | Lilylab',
+        description: 'Pure cold-pressed Argan Oil. The Bio-Active Serum for Hair, Skin, and Nails.',
+        images: [
+            {
+                url: '/images/argan-bottle.png',
+                width: 800,
+                height: 800,
+                alt: 'Lilylab Argan Oil Bottle',
+            },
+        ],
+    },
 }
 
 export default function ArganOilPage() {
@@ -24,9 +36,9 @@ export default function ArganOilPage() {
                 </div>
 
                 <div className="relative z-20 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
-                    <div className="w-64 h-40 relative mb-8 shadow-2xl rounded-lg overflow-hidden border border-white/20">
+                    <div className="w-64 h-80 relative mb-8 shadow-2xl rounded-lg overflow-hidden border border-white/20">
                         <Image
-                            src="/images/argan-research.jpg"
+                            src="/images/argan-bottle.png"
                             alt="Argan Oil Research"
                             fill
                             className="object-cover"

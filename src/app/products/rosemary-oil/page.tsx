@@ -4,8 +4,20 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
     title: 'Organic Rosemary Oil - Research-Backed Hair Regrowth | Lilylab',
-    description: 'Clinical strength Rosemary Oil for scalp microcirculation and hair density. A natural alternative to Minoxidil for follicle stimulation.',
-    keywords: ['Rosemary scalp oil', 'natural hair thickening treatment', 'research-backed rosemary oil', 'hair growth oil Canada'],
+    description: 'Clinically studied Rosemary Oil for hair density. The natural alternative to synthetic growth treatments. Promotes circulation and healthy follicles.',
+    keywords: ['Rosemary oil for hair growth', 'Natural minoxidil alternative', 'Scalp circulation oil', 'Lilylab rosemary'],
+    openGraph: {
+        title: 'Organic Rosemary Oil - Research-Backed Hair Regrowth | Lilylab',
+        description: 'Clinically studied Rosemary Oil for hair density. The natural alternative to synthetic growth treatments.',
+        images: [
+            {
+                url: '/images/rosemary-research.jpg',
+                width: 800,
+                height: 800,
+                alt: 'Lilylab Rosemary Oil Research',
+            },
+        ],
+    },
 }
 
 export default function RosemaryOilPage() {

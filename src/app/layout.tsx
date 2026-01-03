@@ -19,6 +19,19 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: 'Lilylab | Research-based Beauty & Personal Care',
   description: 'The Laboratory Meets Nature. Pure, clinically-profiled botanical oils from Nova Scotia.',
+  metadataBase: new URL('https://lilylab.ca'),
+  openGraph: {
+    title: 'Lilylab | Research-based Beauty & Personal Care',
+    description: 'The Laboratory Meets Nature. Pure, clinically-profiled botanical oils from Nova Scotia.',
+    url: 'https://lilylab.ca',
+    siteName: 'Lilylab',
+    locale: 'en_CA',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   verification: {
     google: 'R-rWpqvH0Qe3kCHepkRAscPpZzwAo3m5jOUtJ29p_Yo',
   },
